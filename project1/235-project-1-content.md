@@ -20,11 +20,11 @@ The character you select is entered in a sumo tournament so they can pay their g
 
 ### Graphics
 
-Visuals are a mix between classic japanese art and fantasy imagery.
+Visuals are a mix between classic japanese art and fantasy imagery. The color scheme will consist of muted colors to reflect the look of old japanese paintings. The characters will be dressed robes, colored to match their primary element; however, they will retain the portly sumo body type.
 
 ### Sound
 
-The background music will also be inspired by japanese culture. There will be different sound effects for the characters.
+The background music will also be inspired by japanese culture. There will be different sound effects for the characters' different attacks, interactions with the UI, and different gameplay states.
 
 ## Gameplay
 
@@ -53,4 +53,4 @@ To be successful, the player has to learn the relationship between the spells, t
 
 ## Developer
 
-My name is Andrew Cambridge. I am a second year Game Design and Development student.
+My name is Andrew Cambridge. I am a second year Game Design and Development student. I work with programming languages like C#, C++, HTML, CSS, JavaScript, and Java, and engines like Unity, Unreal, and MonoGame.
