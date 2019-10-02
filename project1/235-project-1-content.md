@@ -49,8 +49,6 @@ To be successful, the player has to learn the relationship between the spells, t
 <img src="media/examplescreenshot.png" alt="Mockup">
 <img src="media/sumomagic.png" alt="Logo">
 
-## Other
-
 ## Developer
 
 My name is Andrew Cambridge. I am a second year Game Design and Development student. I work with programming languages like C#, C++, HTML, CSS, JavaScript, and Java, and engines like Unity, Unreal, and MonoGame.
