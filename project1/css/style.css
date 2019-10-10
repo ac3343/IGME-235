@@ -8,6 +8,7 @@ header
     text-align: center;
     height: auto;
     margin: 0 11vw;
+    color: #422040;
 }
 .gameName
 {
@@ -35,8 +36,6 @@ li a
     text-decoration: none;
     text-align: center;
     margin: auto;
-    padding: 2.5vh;
-
 }
 
 li a:link, li a:visited
@@ -46,16 +45,12 @@ li a:link, li a:visited
 
 li a:focus
 {
-    background-color: rgb(119, 48, 24);
+    color: rgb(119, 48, 24);
 }
 
 li a:hover
 {
-    background-color: rgb(119, 48, 24);
-}
-li a:active
-{
-    
+    color: rgb(119, 48, 24);
 }
 main
 {
@@ -63,5 +58,27 @@ main
     margin: 0 11vw;
     text-align: center;
     padding: 1% 5%;
-    color: #422040;
+    color: #1F100B;
+}
+
+footer
+{
+    background-color: #1F100B;
+    color: #F5D8C0;
+    text-align: center;
+    padding: 5px;
+    margin: 0 11vw;
+    
+}
+footer p
+{
+    padding: 0 15%;
+}
+
+img
+{
+    margin: auto;
+    width: 50%;
+    height: auto;
+    
 }
