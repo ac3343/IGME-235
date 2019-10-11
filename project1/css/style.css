@@ -12,10 +12,16 @@ header
 }
 .gameName
 {
-    background: url(../media/sumomagic.png) no-repeat;
-    background-size: cover;
+    background: url(../media/sumomagic.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: auto;
+    margin: 0%;
+    text-indent: -9999px;
 }
-.nav
+nav ul
 {
     display: flex;
     list-style: none;
@@ -75,10 +81,8 @@ footer p
     padding: 0 15%;
 }
 
-img
+img#example
 {
     margin: auto;
-    width: 50%;
     height: auto;
-    
 }
