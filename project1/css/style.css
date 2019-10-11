@@ -7,7 +7,6 @@ header
 {
     text-align: center;
     height: auto;
-    margin: 0 11vw;
     color: #422040;
 }
 .gameName
@@ -52,40 +51,95 @@ nav ul li a:link, nav ul li a:visited
     color: #F4AD92;
 }
 
-li a:focus
+nav ul li a:focus, nav ul li a:hover
 {
     color: rgb(119, 48, 24);
-}
-
-li a:hover
-{
-    color: rgb(119, 48, 24);
+    font-size: 1.25em;
 }
 main
 {
     background-color: #EE7757;
-    margin: 0 11vw;
     text-align: center;
-    padding: 1% 5%;
-    color: #1F100B;
+    padding: 5vh 5%;
+    color: #120e06;
 }
 
 footer
 {
-    background-color: #1F100B;
+    background-color: #120e06;
     color: #F5D8C0;
     text-align: center;
     padding: 5px;
-    margin: 0 11vw;
     
 }
-footer p
+main p
 {
-    padding: 0 15%;
+    margin: 1rem 0 2.5rem; 
 }
 
-img#example
+#example
+{
+    margin: 1vh auto;
+    background: url(../media/examplescreenshotsmall.png);
+    width: 300px;
+    height: 168px;
+    text-indent: -9999px;
+}
+#logo
 {
     margin: auto;
-    height: auto;
+    background: url(../media/sumomagicsmall.png);
+    width: 300px;
+    height: 118px;
+    text-indent: -9999px;
+}
+h2
+{
+    border-bottom: 1px solid;
+    border-bottom-color: #120e06;
+    width: 65%;
+    margin: auto;
+}
+html
+{
+    margin: auto;
+}
+
+@media screen and (min-width: 800px)
+{
+    main, header, footer
+    {
+        margin: 0 9vw;
+        font-size: 1.25em;
+    }
+    #example
+    {
+        margin: 1vh auto;
+        background: url(../media/examplescreenshot.png);
+        width: 768px;
+        height: 432px;
+        text-indent: -9999px;
+    }
+    #logo
+    {
+        margin: auto;
+        background: url(../media/sumomagic.png);
+        width: 700px;
+        height: 276px;
+        text-indent: -9999px;
+    }
+    .row
+    {
+        display: flex;
+        flex-direction: row;
+    }
+    .item
+    {
+        width: 50%;
+        margin: auto;
+    }
+    .item p
+    {
+        padding: 0 5%;
+    }
 }
